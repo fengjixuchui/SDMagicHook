@@ -1,6 +1,6 @@
 # SDMagicHook
 
-[中文文档](./README_CN.md) [原理解析](https://mp.weixin.qq.com/s/wxigL1Clem1dR8Nkt8LLMw)
+[中文文档](./README_CN.md)   [ 原理解析](https://mp.weixin.qq.com/s/wxigL1Clem1dR8Nkt8LLMw)   [ 与Aspects异同](https://github.com/larksuite/SDMagicHook/issues/1)
 
 A safe and influence-restricted method hooking for both Objective-C and Swift.
 
@@ -13,6 +13,9 @@ Classical method swizzling with method_exchangeImplementations is quite simple, 
 - The method swizzling will affect all the instances of the target class，however in most cases it is not necessary but even has side effects.
 
 Now SDMagicHook will solve the problems mentioned above.
+
+## Changes Log
+2020.03.09 -- KVO compatible 
 
 ## Usage
 
